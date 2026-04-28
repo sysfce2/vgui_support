@@ -320,7 +320,7 @@ void CEngineSurface :: drawPrintText( const char* text, int textLen )
 			hasColor = true;
 			return; // skip '^'
 		}
-		else if( hasColor && isdigit( *text ))
+		else if( hasColor && isdigit((byte)*text ))
 		{
 			numColor = ColorIndex( *text );
 			hasColor = false; // handled
