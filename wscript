@@ -17,7 +17,7 @@ def build(bld):
 		source   = bld.path.ant_glob(['*.cpp']),
 		target   = 'vgui_support',
 		includes = '.',
-		use      = 'sdk_includes werror DL M VGUI',
+		use      = 'sdk_includes werror DL M VGUI yy_thunks',
 		rpath    = bld.env.DEFAULT_RPATH,
 		install_path = bld.env.LIBDIR
 	)
