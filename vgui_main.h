@@ -45,6 +45,8 @@ from your version.
 #include<VGUI_MouseCode.h>
 #include<VGUI_KeyCode.h>
 
+#include "xash3d_types.h"
+
 namespace vgui_support
 {
 extern vguiapi_t *g_api;
